@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.btn{
+    /* width: 100%; */
+    margin: 50% auto;
+    justify-content: center;
+    display: flex;
+}
+
+.btn button{
+    padding: 9px;
+    border: 2px solid green;
+    border-radius: 40px;
+    background-color: transparent;
+    text-shadow: 50px;
+    font-size: 15px;
+    font-weight: 550;
+    transition: transform .5s;
+}
+
+.btn button:hover{
+    transform: translateY(-6px);
+}
