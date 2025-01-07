@@ -22,3 +22,24 @@
 .btn button:hover{
     transform: translateY(-6px);
 }
+
+@keyframes slideLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.animate{
+    animation-name: slideLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: ;
+    animation-fill-mode: none;
+}
+
+/* I have to continue from 8:30 on the video in my phone */
