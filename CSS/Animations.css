@@ -38,8 +38,18 @@
     animation-timing-function: ease-in;
     animation-delay: 0;
     animation-iteration-count: 1;
-    animation-direction: ;
+    animation-direction: normal;
     animation-fill-mode: none;
+    transform: translateX(-150px);
 }
 
 /* I have to continue from 8:30 on the video in my phone */
+
+
+
+
+
+
+
+
+
