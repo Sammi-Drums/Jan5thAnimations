@@ -53,10 +53,7 @@
 
 /* I have to continue from 8:30 on the video in my phone */
 /* More under animation */
-.animate{
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
+
 .animate.animate--infinite{
     animation-iteration-count: infinite;
 }
@@ -80,16 +77,26 @@
         transform: translateX(0px);
     }
 }
-.animate{
+.animated{
     animation: slideRight 1s ease-in both;
-    transform: translateX(-150);
+    transform: translateX(150);
 }
 
 
+@keyframes Rotate {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 
 
-
-
+.rotate{
+    animation-name: Rotate;
+    animation-timing-function: linear;
+}
 
 
 
